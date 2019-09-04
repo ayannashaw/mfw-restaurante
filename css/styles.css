@@ -1,0 +1,32 @@
+/* Navbar */
+.navbar-inverse {
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+/* Below targets the a insde the nav */
+nav a {
+    color: white;
+}
+
+/* Carousel */
+.carousel-caption {
+    padding-top: 0px;
+}
+
+.carousel-caption img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.carousel-caption button {
+    background-color: #F27830;
+    margin-bottom: 10px;
+}
+
+button a {
+    color: white;
+}
