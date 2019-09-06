@@ -1,0 +1,96 @@
+/* Navbar */
+.navbar-inverse{
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+nav a, button a{
+    color: white;
+}
+
+/* Carousel */
+.carousel-caption{
+    padding-top: 0px;
+}
+
+.carousel-caption img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.carousel-caption button{
+    background-color: #f27830;
+    margin-bottom: 10px;
+}
+
+/* button a{
+    color: white;
+} */
+
+.font-color-white{
+    color: white
+}
+
+/* Our Story */
+.our-story{
+    padding-top: 1em;
+    display: block;
+}
+
+.our-story h1{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 4em;
+    color: #f27830;
+    margin-bottom: 0px;
+}
+
+.our-story h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    margin-top: 0px;
+}
+
+.our-story p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: 20px 0px 5px 0px;
+}
+
+.our-story h2, h1{
+    text-align: center;
+}
+
+/* Fresno Bee Jumbotron */
+.jumbotron h1{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 4em;
+    color: #f27830;
+}
+
+.jumbotron p{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.jumbotron{
+    margin-top: 2em;
+    margin-bottom: 0px;
+    background-image: url(/img/food_review.jpg);
+}
+
+.jumbotron .box{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+/* Menu */
+
+
+
+/* Contact */
