@@ -64,3 +64,28 @@ nav a, button a{
 .our-story h2, h1{
     text-align: center;
 }
+
+/* Fresno Bee Jumbotron */
+.jumbotron h1{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 4em;
+    color: #f27830;
+}
+
+.jumbotron p{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.jumbotron{
+    margin-top: 2em;
+    margin-bottom: 0px;
+    background-image: url(/img/food_review.jpg);
+}
+
+.jumbotron .box{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
