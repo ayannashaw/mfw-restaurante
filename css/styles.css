@@ -126,22 +126,6 @@ nav a, button a{
 
 /* Contact */
 
-.footer form{
-    margin-top: 1em;
-    padding: 1em;
-    border: 1px solid white;
-    background-color: #ff7833;
-}
-
-.footer address{
-    margin-top: 1em;
-    color: white;
-}
-
-.footer address, iframe{
-    margin-left: 3em;
-}
-
 .footer{
     background-color: #f27830;
     padding-bottom: 3em;
@@ -174,5 +158,21 @@ input[type=text], select, textarea {
 
 label{
     color: white
+}
+
+.footer form{
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid white;
+    background-color: #ff7833;
+}
+
+.footer address{
+    margin-top: 1em;
+    color: white;
+}
+
+.footer address, iframe{
+    margin-left: 3em;
 }
 
