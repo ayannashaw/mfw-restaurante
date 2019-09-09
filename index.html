@@ -16,7 +16,7 @@
 <div class="container">
 <!-- Navbar -->
 <div class="row">
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
 		<div class="container">
 		<div class="col col-md-6">
 			<div class="navbar-header">
@@ -28,13 +28,13 @@
 		<div class="col col-md-6">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Our Story</a></li>
-				<li><a href="#">Review</a></li>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="#link-our-story">Our Story</a></li>
+				<li><a href="#link-review">Review</a></li>
+				<li><a href="#link-menu">Menu</a></li>
+				<li><a href="#link-contact">Contact Us</a></li>
 			</ul>
 		</div>
-	</div>
+		</div>
 	</nav>
 </div>
 
@@ -54,7 +54,7 @@
 		<div class="item active">
 			<img src="../mfw-restaurante/img/farm-2.jpg">
 			<div class="carousel-caption">
-				<h3>From Farm</h3>
+				<h3>From Farm to Table</h3>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 				<button class="btn">
 					<a href="#">Browse Gallery</a>
@@ -65,7 +65,7 @@
 		<div class="item">
 			<img src="../mfw-restaurante/img/restaurant-2.jpg">
 			<div class="carousel-caption">
-				<h3>To Table</h3>
+				<h3> From Farm to Table</h3>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 				<button class="btn">
 					<a href="#">Browse Gallery</a>
@@ -76,7 +76,9 @@
 		<div class="item">
 			<img src="../mfw-restaurante/img/wood-2.jpg">
 			<div class="carousel-caption">
-				<img class="img-fluid" src="../mfw-restaurante/img/farm-2.jpg">
+				<img class="img-fluid" src="../mfw-restaurante/img/logo-01.png">
+				<h3> From Farm to Table</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 				<button class="btn">
 					<a href="#">Browse Gallery</a>
 				</button>
@@ -94,18 +96,17 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-
 </div>
 
 <!-- Our Story -->
-<div class="row">
+<div class="row" id="link-our-story">
 	<div class="col col-md-1"></div>
 	<div class="col col-md-4 our-story">
 		<h1>Our Story</h1>
 		<h2>One Man. One Dream.</h2>
 	</div>
 	<div class="col col-md-1"></div>
-	<div class="col col-md-6 our-story">
+	<div class="col col-md-6 our-story our-story-p">
 		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -114,7 +115,7 @@
 </div>
 
 <!-- Fresno Bee Jumbotron -->
-<div class="row">
+<div class="row" id="link-review">
 	<div class="jumbotron">
 		<div class="box">
 			<h1>Fresno Bee</h1>
@@ -124,7 +125,7 @@
 </div>
 
 <!-- Menu -->
-<div class="menu row">
+<div class="menu row" id="link-menu">
 	<div class="col col-md-1"></div>
 	<div class="col col-md-10">
 		<h1>Menu</h1>
@@ -243,7 +244,7 @@
 
 
 <!-- Contact -->
-<div class="footer row">
+<div class="footer row" id="link-contact">
 	<div class="col col-md-2"></div>
 	<div class="col col-md-10">
 		<h1>Contact Us</h1>
@@ -252,33 +253,39 @@
 	<div class="col col-md-2"></div>
 	<div class="col col-md-4">
 		<form action="/action_page.php">
-			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			<label for="fname">Name:</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
-			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<label for="lname">Email:</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
 			<label for="subject">Subject</label>
-			<textarea type="text" id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+			<textarea type="text" id="subject" name="subject" placeholder="Write something.." required></textarea>
 
+			<label for="message">Message</label>
+			<textarea type="text" id="message" name="message" placeholder="Write something.." style="height: 200px"
+			required></textarea>
 
-			<button class="btn">Send Message</button>
-
+			<div class="submit-btn">
+			<button type="submit">Send Message</button>
+			</div>
 		</form>
+
 	</div>
 		<div class="col col-md-6"></div>
-		<address></address>
+		<address>
+			<div class="title">
+			Restaurante <br>
+			</div>
+			123 Fulton St <br>
+			Fresno, CA 93728 <br>
+			(123) 456-7890
+		</address>
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.608962956363!2d-119.78801758591477!3d36.73195157924044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4340503%3A0xb32dda71cf0730a0!2sBitwise%20South%20Stadium!5e0!3m2!1sen!2sus!4v1567742203187!5m2!1sen!2sus"
 			width="350" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 </div>
-
-
-
-
-
-
 
 <!-- End of Container -->
 </div>
