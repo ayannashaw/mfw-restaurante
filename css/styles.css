@@ -1,13 +1,14 @@
 /* Navbar */
 .navbar-inverse{
     margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     border: none;
 }
 
 nav a, button a{
     color: white;
 }
+
 
 /* Carousel */
 .carousel-caption{
@@ -131,14 +132,14 @@ nav a, button a{
     padding-bottom: 3em;
 }
 
-footer h1{
+.footer h1{
     text-align: left;
     color: white;
     text-transform: uppercase;
     font-size: 4em;
 }
 
-footer p{
+.footer p{
     text-align: left;
     color: white;
     padding-right: 10em;
@@ -175,4 +176,3 @@ label{
 .footer address, iframe{
     margin-left: 3em;
 }
-
