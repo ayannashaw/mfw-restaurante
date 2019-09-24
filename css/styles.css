@@ -76,8 +76,8 @@ nav a, button a{
     background-size: 50em;
     background-repeat: no-repeat;
     /* The 'Right' Way to Add Text */
-    z-index: -1;
-    position: absolute;
+    /* z-index: -1;
+    position: absolute; */
 
 }
 
